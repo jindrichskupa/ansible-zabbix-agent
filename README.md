@@ -42,7 +42,7 @@ The values for default variables are listed below (see [`defaults/main.yml`](def
 ```yaml
 zbx_version: 6.2 # Used to configure the Zabbix download repository, at time of writing the latest version is 6.2
 zbx_server: 192.168.1.1 # IP Addr or FQDN of your Zabbix server
-zbx_passive_port: 10050 # Zabbix server will request agent on this port
+zbx_listen_port: 10050 # Zabbix server will request agent on this port
 zbx_active_port: 10051 # Active agent will request Zabbix server on this port
 ```
 

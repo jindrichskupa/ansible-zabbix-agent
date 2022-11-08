@@ -11,7 +11,7 @@ argument_specs:
         type: "str"
         required: true
         description: "This should be an ip address or fqdn for the Zabbix server"
-      zbx_passive_port:
+      zbx_listen_port:
         type: "int"
         required: true
         description: "This should be a port value from 1000-65535"

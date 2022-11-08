@@ -1,5 +1,12 @@
 ---
 zbx_version: 6.2
 zbx_server: 192.168.1.1
-zbx_passive_port: 10050
 zbx_active_port: 10051
+
+zbx_log_type: file
+zbx_log_file: /var/log/zabbix/zabbix_agent.log
+zbx_log_file_size: 100
+zbx_listen_port: 10050
+zbx_listen_ip: 0.0.0.0
+zbx_server_active: 
+zbx_hostname: default
