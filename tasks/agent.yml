@@ -9,7 +9,7 @@
 - name: install zabbix-agent package
   package:
     name: zabbix-agent
-    state: present
+    state: latest
 
 - name: copy zabbix-agent configuration
   template:
