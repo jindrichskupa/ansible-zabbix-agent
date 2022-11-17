@@ -9,4 +9,3 @@ zbx_log_file_size: 100
 zbx_listen_port: 10050
 zbx_listen_ip: 0.0.0.0
 zbx_server_active: 
-zbx_hostname: default
