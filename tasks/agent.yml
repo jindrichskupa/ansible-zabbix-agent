@@ -9,7 +9,7 @@
 - name: install zabbix-agent package
   package:
     name: "zabbix-agent={{ zbx_version }}"
-    state: latest
+    state: present
 
 - name: copy zabbix-agent configuration
   template:
