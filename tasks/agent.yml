@@ -6,11 +6,6 @@
 - name: gather service facts
   service_facts:
 
-- name: install zabbix-agent package
-  package:
-    name: "zabbix-agent={{ zbx_spec_version }}"
-    state: present
-
 - name: copy zabbix-agent configuration
   template:
     src: zabbix_agent.conf

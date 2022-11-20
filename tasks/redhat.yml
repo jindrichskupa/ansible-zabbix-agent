@@ -16,3 +16,8 @@
   command: yum makecache
   args:
     warn: false
+
+- name: install zabbix-agent package
+  package:
+    name: "zabbix-agent"
+    state: present

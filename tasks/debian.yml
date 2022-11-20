@@ -34,3 +34,8 @@
   when:
     - ansible_distribution == "Ubuntu"
     - ansible_architecture == "aarch64"
+
+- name: install zabbix-agent package
+  apt:
+    name: "zabbix-agent={{ zbx_version }}*"
+    state: present

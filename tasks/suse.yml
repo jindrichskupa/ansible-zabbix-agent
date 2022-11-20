@@ -6,3 +6,8 @@
     auto_import_keys: true
     state: present
     runrefresh: true
+
+- name: install zabbix-agent package
+  package:
+    name: "zabbix-agent={{ zbx_spec_version }}"
+    state: present
