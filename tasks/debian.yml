@@ -37,5 +37,5 @@
 
 - name: install zabbix-agent package
   apt:
-    name: "zabbix-agent={{ zbx_version }}*"
+    name: "zabbix-agent"
     state: present
